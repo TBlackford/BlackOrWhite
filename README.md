@@ -1,7 +1,5 @@
 # Black Or White
 
-## About
-
 This is a small module that uses a neural network to determine whether the text colour should be black or white. The neural network library that this uses is [Brain.js](https://github.com/BrainJS/brain.js).
 
 # Examples
@@ -90,7 +88,7 @@ The data is an array of objects that have two keys: input and output.
   
 If the appendDefaultData config option is true then the data passed in will be appended to the default data.
 
-Default:
+### Default
 ```javascript
 const data = [
     {input: { r: 0.0, g: 0.0, b: 0.0 }, output: { white: 1 }},
@@ -106,7 +104,7 @@ const data = [
 
 ## nn_config
 
-This config object is for the Brain.js neural network constructor. (The following is )
+This config object is for the Brain.js neural network constructor.
 
 ### activation
 There are four types of activation functions that Brain.js (and BlackOrWhite) can support:
