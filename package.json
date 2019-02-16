@@ -1,0 +1,16 @@
+{
+    "name": "@TBlackford/blackorwhite",
+    "version": "1.0.0",
+    "description": "Detects whether the text on a given colour should be Black or White",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha ./test/test.js",
+        "start": "node index.js"
+    },
+    "author": "github.com/TBlackford",
+    "license": "MIT",
+    "dependencies": {
+        "brain.js": "1.6.1",
+        "mocha": "^5.2.0"
+    }
+}
