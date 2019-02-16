@@ -1,5 +1,5 @@
 {
-    "name": "@TBlackford/blackorwhite",
+    "name": "@TBlackford/BlackOrWhite",
     "version": "1.0.0",
     "description": "Detects whether the text on a given colour should be Black or White",
     "main": "index.js",
