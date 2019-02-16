@@ -6,9 +6,9 @@ This is a small module that uses a neural network to determine whether the text 
 
 ```javascript
 // Include the module
-const BlackOrWhite = require('BlackOrWhite');
+const BlackOrWhite = require('@tblackford/blackorwhite');
 // or
-import BlackOrWhite from 'BlackOrWhite';
+import BlackOrWhite from '@tblackford/blackorwhite';
 
 // Make a new instance of it
 const bow = new BlackOrWhite();
